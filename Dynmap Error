@@ -1,0 +1,65 @@
+[17:30:55 INFO]: [dynmap] Disabling dynmap v3.1-457
+[17:30:55 INFO]: [dynmap] Unloaded 11 components.
+[17:30:55 INFO]: [dynmap] Stopping map renderer...
+[17:30:56 INFO]: [dynmap] Saved 12 pending tile renders in world 'world'
+[17:30:56 INFO]: [dynmap] Disabled
+[17:30:56 INFO]: [dynmap] Enabling dynmap v3.1-457*
+[17:30:56 WARN]: Enabled plugin with unregistered PluginClassLoader dynmap v3.1-457
+[17:30:56 INFO]: [dynmap] Starting Scheduled Write Job (markerAPI).
+[17:30:56 WARN]: Error: DynmapBlockState updated after arrays generated
+[17:30:56 WARN]: java.lang.Exception: Stack trace
+[17:30:56 WARN]:        at java.lang.Thread.dumpStack(Thread.java:1336)
+[17:30:56 WARN]:        at org.dynmap.renderer.DynmapBlockState.<init>(DynmapBlockState.java:121)
+[17:30:56 WARN]:        at org.dynmap.renderer.DynmapBlockState.<init>(DynmapBlockState.java:104)
+[17:30:56 WARN]:        at org.dynmap.bukkit.helper.v116_4.BukkitVersionHelperSpigot116_4.initializeBlockStates(BukkitVersionHelperSpigot116_4.java:110)
+[17:30:56 WARN]:        at org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:853)
+[17:30:56 WARN]:        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[17:30:56 WARN]:        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380)
+[17:30:56 WARN]:        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483)
+[17:30:56 WARN]:        at org.dynmap.bukkit.DynmapPlugin$BukkitServer.reload(DynmapPlugin.java:253)
+[17:30:56 WARN]:        at org.dynmap.DynmapCore.processCommand(DynmapCore.java:1595)
+[17:30:56 WARN]:        at org.dynmap.bukkit.DynmapPlugin.onCommand(DynmapPlugin.java:1039)
+[17:30:56 WARN]:        at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[17:30:56 WARN]:        at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[17:30:56 WARN]:        at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:810)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.PlayerConnection.handleCommand(PlayerConnection.java:2023)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.PlayerConnection.c(PlayerConnection.java:1838)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1791)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:47)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:5)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1140)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1133)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.MinecraftServer.sleepForTick(MinecraftServer.java:1094)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1008)
+[17:30:56 WARN]:        at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[17:30:56 WARN]:        at java.lang.Thread.run(Thread.java:748)
+[17:30:56 INFO]: [dynmap] Using LuckPerms 5.2.76 for access control
+[17:30:56 INFO]: [dynmap] Mod Support processing completed
+[17:30:56 INFO]: [dynmap] Loaded 25 shaders.
+[17:30:57 INFO]: [dynmap] Loaded 82 perspectives.
+[17:30:57 INFO]: [dynmap] Loaded 22 lightings.
+[17:30:57 INFO]: [dynmap] Starting enter/exit processing
+[17:30:57 INFO]: [dynmap] Finish marker initialization
+[17:30:57 ERROR]: [dynmap] Failed to start WebServer on address 0.0.0.0:8117 : Failed to bind to 0.0.0.0/0.0.0.0:8117
+[17:30:57 INFO]: [dynmap] version 3.1-457 is enabled - core version 3.1-457
+[17:30:57 INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[17:30:57 INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[17:30:57 INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[17:30:57 INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[17:30:57 INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[17:30:57 INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[17:30:57 INFO]: [dynmap] Loaded 3 maps of world 'PvP'.
+[17:30:57 INFO]: [dynmap] Enabled
+[17:30:57 INFO]: [Dynmap-Towny] Disabling Dynmap-Towny v0.84
+[17:30:57 INFO]: [Dynmap-Towny] Enabling Dynmap-Towny v0.84
+[17:30:57 WARN]: Enabled plugin with unregistered PluginClassLoader Dynmap-Towny v0.84
+[17:30:57 INFO]: [Dynmap-Towny] initializing
+[17:30:57 INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-town will have no effect
+[17:30:57 INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-nation will have no effect
+[17:30:57 INFO]: [Dynmap-Towny] version 0.84 is activated
