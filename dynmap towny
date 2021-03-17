@@ -1,0 +1,18 @@
+[20:35:03 INFO]: [DiscordSRV] Enabling DiscordSRV v1.21.3
+[20:35:03 INFO]: [Dynmap-Towny] Enabling Dynmap-Towny v0.70*
+[20:35:03 INFO]: [Dynmap-Towny] initializing
+[20:35:03 ERROR]: Error occurred while enabling Dynmap-Towny v0.70 (Is it up to date?)
+java.lang.NoSuchMethodError: com.palmergames.bukkit.towny.Towny.getTownyUniverse()Lcom/palmergames/bukkit/towny/object/TownyUniverse;
+        at org.dynmap.towny.DynmapTownyPlugin.activate(DynmapTownyPlugin.java:913) ~[?:?]
+        at org.dynmap.towny.DynmapTownyPlugin.onEnable(DynmapTownyPlugin.java:887) ~[?:?]
+        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[server.jar:git-Paper-534]
+        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380) ~[server.jar:git-Paper-534]
+        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[server.jar:git-Paper-534]
+        at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:501) ~[server.jar:git-Paper-534]
+        at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:415) ~[server.jar:git-Paper-534]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:468) ~[server.jar:git-Paper-534]
+        at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:241) ~[server.jar:git-Paper-534]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:943) ~[server.jar:git-Paper-534]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[server.jar:git-Paper-534]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_282]
+[20:35:03 INFO]: [Dynmap-Towny] Disabling Dynmap-Towny v0.70
