@@ -1,0 +1,67 @@
+container@pterodactyl~ Server marked as running...
+[02:17:36] [Server thread/INFO]: Starting GS4 status listener
+[02:17:36] [Server thread/INFO]: Thread Query Listener started
+[02:17:36] [Server thread/INFO]: Stopping server
+[02:17:36] [Server thread/INFO]: [Spartan] Disabling Spartan vBuild 398
+[02:17:36] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[02:17:36] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
+[02:17:36] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[02:17:36] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
+[02:17:36] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4+f7ff984
+[02:17:36] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[02:17:36] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.2.0
+[02:17:36] [Server thread/INFO]: [BuildBattle] Disabling BuildBattle v4.4.8
+[02:17:36] [Server thread/INFO]: [TAB] Disabling TAB v2.8.10
+[02:17:36] [Server thread/INFO]: [TAB] Disabled in 3ms
+[02:17:36] [Server thread/INFO]: [BedWars] Disabling BedWars v0.2.15
+[02:17:36] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.18.2.0
+[02:17:36] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.2.0
+[02:17:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:17:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.3+5680-135941e
+[02:17:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:17:36] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[02:17:36] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:17:36] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.3
+[02:17:36] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:17:36] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:17:36] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:17:36] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.1
+[02:17:36] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[02:17:36] [Server thread/INFO]: [BungeeGuard] Disabling BungeeGuard v1.2-SNAPSHOT
+[02:17:36] [Server thread/INFO]: [PluginConstructorAPI] Disabling PluginConstructorAPI v1.0.52
+[02:17:36] [Server thread/INFO]: [NoPlugins] Disabling NoPlugins v7.3.3
+[02:17:36] [Server thread/INFO]: [NoPlugins] disabled.
+[02:17:36] [Server thread/INFO]: [LobbyAPI] Disabling LobbyAPI v3.7.104
+[02:17:36] [Server thread/INFO]: Saving players
+[02:17:37] [Server thread/INFO]: Saving worlds
+[02:17:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:17:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:17:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:17:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:17:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:lobby
+[02:17:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[02:17:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bedwars]'/minecraft:bedwars
+[02:17:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (bedwars): All chunks are saved
+[02:17:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[arcade]'/minecraft:arcade
+[02:17:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (arcade): All chunks are saved
+[02:17:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:world_nether
+[02:17:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:17:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:17:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:17:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[02:17:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (bedwars): All chunks are saved
+[02:17:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (arcade): All chunks are saved
+[02:17:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:17:42] [Server thread/INFO]: Thread Query Listener stopped
+container@pterodactyl~ Server marked as offline...
+>
+
+[Pterodactyl Daemon]: ---------- Detected server process in a crashed state! ----------
+[Pterodactyl Daemon]: Exit code: 0
+[Pterodactyl Daemon]: Out of memory: false
+[Pterodactyl Daemon]: Checking server disk space usage, this could take a few seconds...
+[Pterodactyl Daemon]: Updating process configuration files...
+[Pterodactyl Daemon]: Ensuring file permissions are set correctly, this could take a few seconds...
+container@pterodactyl~ Server marked as starting...
+[Pterodactyl Daemon]: Pulling Docker container image, this could take a few minutes to complete...
+[Pterodactyl Daemon]: Finished pulling Docker container image
